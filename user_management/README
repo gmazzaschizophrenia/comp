@@ -1,15 +1,12 @@
-For example let us consider /etc/passwd:
+User managemnt
+==============
 
-- create_users.py would contain the main():
-user authentication, groups (?), homedirs
-
-- myPasswdFromDb is the module where I
-get info from a file/db and create the file passwd
-
-- authSystem is a link to myPasswdFromDb
-and is the name of the module in the main script too.
-
-Likewise I could write
-- myNisFromDb
-- myLdapFromDb
-
+This project consists in a bunch of scripts.
+The main idea is to have a modular approach:
+- a main script
+- a module to interface the "database"
+  where the user info is stored
+- a module to create the config files, i.e.
+  either /etc/passwd
+  or     NIS
+  or     LDAP

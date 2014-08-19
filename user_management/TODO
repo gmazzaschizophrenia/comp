@@ -1,0 +1,15 @@
+For example let us consider /etc/passwd:
+
+- create_users.py would contain the main():
+user authentication, groups (?), homedirs
+
+- myPasswdFromDb is the module where I
+get info from a file/db and create the file passwd
+
+- authSystem is a link to myPasswdFromDb
+and is the name of the module in the main script too.
+
+Likewise I could write
+- myNisFromDb
+- myLdapFromDb
+
