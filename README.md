@@ -1,4 +1,4 @@
 comp
 ====
 
-I have changed my mind... again :-)
+Repo for my projects
